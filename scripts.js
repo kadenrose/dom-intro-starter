@@ -31,6 +31,7 @@ for(let i = 0; i < svgs.length; i++){
 
 document.querySelector("#query .bold").style.color = "#7C9EA6";
 
-document.querySelector("").textContent = "";
+document.querySelector(".content_list li:first-of-type").textContent = "This is new list item text";
+document.querySelectorAll(".content_list li")[2].innerHTML += " <strong>Kaden Rose</strong>";
 
-document.getElementById
+document.querySelector("#remove a").removeAttribute("hidden");
